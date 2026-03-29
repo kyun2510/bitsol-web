@@ -1,7 +1,7 @@
 import React, {useEffect, useRef} from "react";
 import "./hoo-skew-text-section.css";
 import gsap from "gsap";
-import ScrollTrigger from 'gsap/scrollTrigger';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
 const MsyTwoSection = ({currentSection}) => {
 

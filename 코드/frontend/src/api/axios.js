@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // export const baseURL = "/v1";
-export const baseURL = 'http://localhost:6006/v1';
+export const baseURL = process.env.VITE_API_URL || '/v1';
 
 const api = axios.create({
   baseURL: baseURL,
