@@ -1,7 +1,7 @@
 import React, {useLayoutEffect, useEffect, useRef, useState} from "react";
 import "./kd-main-section6.css";
 import gsap from "gsap";
-import ScrollTrigger from "gsap/scrollTrigger";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 export default function KdMainSection6(props) {
   const {windowWidth} = props;

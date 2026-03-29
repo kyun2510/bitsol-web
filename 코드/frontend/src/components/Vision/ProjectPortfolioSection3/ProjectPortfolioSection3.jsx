@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react';
 import "./project-portfolio-section3.css";
 import gsap from "gsap";
-import ScrollTrigger from 'gsap/scrollTrigger';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 import {NavLink} from "react-router-dom";
 
 export default function ProjectPortfolioSection3(props) {

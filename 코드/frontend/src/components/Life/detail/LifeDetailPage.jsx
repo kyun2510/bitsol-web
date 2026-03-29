@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import gsap from "gsap";
-import ScrollTrigger from "gsap/scrollTrigger";
+import ScrollTrigger from "gsap/ScrollTrigger";
 import "./life-detail-section.css"
 import {useNavigate, useParams} from "react-router-dom";
 import api from "../../../api/axios.js";

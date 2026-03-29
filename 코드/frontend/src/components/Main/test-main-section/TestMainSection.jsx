@@ -1,7 +1,7 @@
 import React from 'react'
 import "./test-main-section.css";
 // import gsap from "gsap";
-import ScrollTrigger from 'gsap/scrollTrigger';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
 export default function TestMainSection(props) {
     const {

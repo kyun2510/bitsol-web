@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react';
 import gsap from "gsap";
-import ScrollTrigger from 'gsap/scrollTrigger';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 import "./two-way-section2.css";
 
 const twoWayData = [

@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import gsap from "gsap";
-import ScrollTrigger from "gsap/scrollTrigger";
+import ScrollTrigger from "gsap/ScrollTrigger";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay, Pagination, Navigation} from "swiper/modules";
 import "swiper/css";

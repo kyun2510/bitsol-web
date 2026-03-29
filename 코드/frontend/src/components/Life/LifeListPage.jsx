@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import gsap from "gsap";
-import ScrollTrigger from "gsap/scrollTrigger";
+import ScrollTrigger from "gsap/ScrollTrigger";
 import "./life-page-section.css"
 import api from "../../api/axios";
 import {NavLink} from "react-router-dom";

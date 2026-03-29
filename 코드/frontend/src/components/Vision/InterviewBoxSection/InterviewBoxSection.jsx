@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react';
 import "./interview-box-section.css";
 import gsap from "gsap";
-import ScrollTrigger from 'gsap/scrollTrigger';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
 export default function InterviewBoxSection(props) {
   const {
