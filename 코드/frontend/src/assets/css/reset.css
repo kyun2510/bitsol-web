@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,p,address {
+    padding: 0;
+    margin: 0;
+}
+ul,li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden !important;
+    font-family: 'SUITE', sans-serif;
+    background-color: #000; /* dark page background everywhere */
+    color: #fff; /* default text color to white for contrast */
+}
+
+
+#main {
+    /* position: relative; */
+    background-color: #000; /* ensure main container matches body */
+    padding-top: 100px; /* space for fixed header so content isn't hidden */
+} 
+/* 모바일 PC 한쪽에서만 보일 요소 none 처리 */
+.mobile-only{
+    display: none !important;
+}
+.mobile-flex-only{
+    display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    .pc-only {
+        display: none !important;
+    }
+    .mobile-only {
+        display: block !important;
+    }
+    .mobile-flex-only{
+        display: flex !important;
+    }
+}

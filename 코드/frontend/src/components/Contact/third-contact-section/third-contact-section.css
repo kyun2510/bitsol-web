@@ -1,0 +1,227 @@
+.third-contact-section {
+    position: relative;
+    width: 100%;
+    /* allow page to grow if content expands */
+    min-height: 100vh;
+    padding: 120px 0; /* vertical breathing room after strengths banner removed */
+    z-index: 3;
+    color: #fff;
+}
+.third-contact-section .third-contact-container {
+    position: relative;
+    width: 100%;
+    /* height now determined by padding and content */
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*padding: 160px 80px;*/
+    /*transform: scale(0.9);*/
+    /*transition: all 1s;*/
+}
+.third-contact-section .third-contact-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.third-contact-section .third-contact-inner .contact-box{
+    width: 38%;
+    /* remove fixed height so box grows with content and spacing */
+    /* height: 34%; */
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0; /* space above/below form elements */
+}
+.third-contact-section .third-contact-inner .contact-box .input-cover{
+    width: 100%;
+}
+.third-contact-section .third-contact-inner .contact-form-box .input-cover:nth-child(3) {
+    /* Removed extra padding for consistent spacing */
+}
+.third-contact-section .third-contact-inner .contact-form-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.third-contact-section .third-contact-inner .contact-form-box input,
+.third-contact-section .third-contact-inner .contact-form-box select,
+.third-contact-section .third-contact-inner .contact-form-box textarea{
+    position: relative;
+    padding: 12px 18px 12px 18px;
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(206deg, rgba(33, 51, 71, 0.3) 0%, rgba(17, 21, 61, 0.3) 100%);
+    border-radius: .625rem;
+    border: 2px solid rgba(255, 255, 255, .1);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath fill='%23ffffff' d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat, repeat;
+    background-position: right .5rem top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+
+.third-contact-section .third-contact-inner .contact-form-box textarea{
+    box-sizing: border-box;
+    min-height: 84px; /* 약 4줄 분량 */
+    line-height: 1.4;
+    resize: vertical;
+    margin-bottom: 12px; /* 버튼과의 간격 확보 */
+}
+
+.third-contact-section .third-contact-inner .contact-form-box textarea::placeholder{
+    color: #ffffffa1;
+    font-size: 14px;
+}
+.third-contact-section .third-contact-inner .contact-form-box select option:first-of-type {
+    color: #ffffffa1;
+    font-weight: 300;
+}
+.third-contact-section .third-contact-inner .img-cover{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.third-contact-section .third-contact-line-image-wrap {
+    width: 100%;
+    margin-bottom: 24px;
+}
+.third-contact-section .third-contact-line-image-wrap:nth-child(1){
+    width: 25%;
+}
+.third-contact-section .third-contact-line-image-wrap:nth-child(2){
+    width: 20%;
+    padding: 2rem;
+}
+.third-contact-section .third-contact-line-image-wrap:nth-child(3){
+    width: 25%;
+}
+.third-contact-section .third-contact-line-image {
+    width: 100%;
+    display: block;
+
+}
+.third-contact-section .third-contact-line-image.line1{
+    clip-path: inset(0% 0%  0% 99%);
+}
+.third-contact-section .third-contact-line-image.line2{
+    clip-path: inset(0% 99% 0% 0%);
+}
+.third-contact-section .third-contact-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.third-contact-section .third-contact-sub-title {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffffa1;
+    margin-bottom: 72px;
+}
+.third-contact-section .third-contact-contact {
+    position: relative;
+    display: inline-flex;
+    padding: 12px 18px 12px 48px;
+    border-radius: 32px;
+    color: #fff;
+    background-color: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255, 255, 255, .1);
+}
+.third-contact-section .third-contact-button-circle {
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    height: calc(100% - 8px);
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #3bc1ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    transform: translateY(-50%) scale(0.2);
+}
+.third-contact-section .third-contact-contact:hover .third-contact-button-circle {
+    transform: translateY(-50%) scale(1);
+}
+.third-contact-section .third-contact-button-circle span {
+    opacity: 0;
+    font-size: 16px;
+    display: block;
+}
+.third-contact-section .third-contact-contact:hover .third-contact-button-circle span {
+    opacity: 1;
+}
+.third-contact-section .third-contact-button-inner {
+    overflow: hidden;
+    display: flex;
+}
+.third-contact-section .third-contact-button-cover {
+    position: absolute;
+    top: 50%;
+    left: 48px;
+    transform: translateY(-50%);
+    overflow: hidden;
+    display: flex;
+}
+.third-contact-section .third-contact-button-cover-span {
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+.third-contact-section .third-contact-button-span {
+    transition: 0.3s;
+}
+.third-contact-section .third-contact-contact:hover .third-contact-button-cover-span {
+    transform: translateY(0);
+}
+.third-contact-section .third-contact-contact:hover .third-contact-button-span {
+    transform: translateY(-100%);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .third-contact-section{
+        height: auto;
+    }
+    .third-contact-section .third-contact-container{
+        min-height: calc(100vh - 220px);
+        padding: 90px 16px;
+    }
+    .third-contact-section .third-contact-title{
+        font-size: 32px;
+        line-height: 1.4;
+        margin-bottom: 24px;
+    }
+    .third-contact-section .third-contact-line-image-wrap:nth-child(2){
+padding: 10px;
+    }
+    .third-contact-section .third-contact-sub-title{
+        line-height: 1.4;
+        font-size: 16px;
+    }
+    .third-contact-section .third-contact-inner .contact-box{
+        width: 75%;
+    }
+
+    .third-contact-section .third-contact-contact .third-contact-button-circle{
+        transform: translateY(-50%) scale(1);
+    }
+
+    .third-contact-section .third-contact-button-circle span{
+        opacity: 1;
+    }
+}

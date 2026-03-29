@@ -1,0 +1,96 @@
+.form-warp {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bs-gray-900);
+  color: #000;
+  display: flex;
+}
+.form-warp .ready-card {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  padding: 50px;
+  color: #fff;
+}
+.form-warp .ready-card .ready-card-text {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 1;
+}
+.form-warp .ready-card .ready-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  z-index: 0;
+}
+.form-warp .ready-card .ready-card-back > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.form-warp .form-box {
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-warp .form {
+  position: relative;
+  width: 500px;
+  /*height: 100%;*/
+  padding: 16px;/**/
+  color: #2F3367;
+  display: inline-flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  overflow: hidden;
+}
+.form-warp .form-box .form-title {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+}
+.form-warp .form-box .form-sub-title {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.form-warp .form .MuiInputBase-root {
+  border-radius: 10px;
+  background-color: #F5F5F7;
+  border: 3px solid transparent;
+}
+.form-warp .form .Mui-focused {
+  border: 3px solid #80BEFC;
+}
+.form-warp .form .MuiFilledInput-input {
+  padding: 15px 0;
+  font-weight: bold;
+  color: #2F3367;
+}
+
+.form-warp button {
+  padding: 10px 0;
+  border-radius: 10px;
+  font-size: 21px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #0d6efd;
+  transition: .2s ease;
+
+}
+.form-warp button:hover {
+  background-color: #F5F5F7;
+  color: #464646;
+  font-weight: bold;
+}

@@ -1,0 +1,25 @@
+.list-pagination nav {
+  display: flex;
+  justify-content: center;
+}
+.list-pagination nav .list-pagination .MuiPaginationItem-previousNext {
+  background-color: #fff;
+}
+
+.list-pagination nav .css-10w330c-MuiButtonBase-root-MuiPaginationItem-root {
+  color: #fff;
+}
+
+.list-pagination nav .css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  color :#000;
+}
+
+
+.css-18lqwt2.Mui-selected {
+  background-color: rgb(255 255 255 / 90%) !important;
+}
+
+
+
+
+

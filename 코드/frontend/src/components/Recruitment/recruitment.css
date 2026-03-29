@@ -1,0 +1,275 @@
+.recruitment-section {
+  width: 100%;
+  min-height: 100vh;
+  background: #000;
+  padding: 120px 50px 80px;
+  color: #fff;
+}
+
+.recruitment-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 헤더 섹션 */
+.recruitment-header {
+  text-align: center;
+  margin-bottom: 100px;
+  animation: fadeInDown 0.8s ease-out;
+}
+
+.recruitment-title {
+  font-size: 72px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 20px 0;
+  letter-spacing: -1px;
+}
+
+.recruitment-subtitle {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* 소개 섹션 */
+.recruitment-intro-section {
+  background: rgba(59, 193, 255, 0.08);
+  border: 1px solid rgba(59, 193, 255, 0.15);
+  border-radius: 12px;
+  padding: 50px;
+  margin-bottom: 100px;
+  backdrop-filter: blur(10px);
+  animation: fadeInUp 0.8s ease-out 0.1s both;
+}
+
+.intro-content h2 {
+  font-size: 32px;
+  margin: 0 0 20px 0;
+  color: #fff;
+}
+
+.intro-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+}
+
+/* 지점 안내 섹션 */
+.recruitment-branches-section {
+  margin-bottom: 120px;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 10px 0;
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #3bc1ff, transparent);
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 0 50px 0;
+}
+
+.branches-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.branch-card {
+  padding: 40px;
+  border-radius: 12px;
+  background: rgba(59, 193, 255, 0.05);
+  border: 1px solid rgba(59, 193, 255, 0.15);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.branch-card:hover {
+  transform: translateY(-8px);
+  background: rgba(59, 193, 255, 0.12);
+  border-color: rgba(59, 193, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(59, 193, 255, 0.15);
+}
+
+.branch-header h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3bc1ff;
+  margin: 0 0 10px 0;
+}
+
+.branch-address {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+}
+
+.branch-body {
+  flex: 1;
+}
+
+.branch-description {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0 0 20px 0;
+}
+
+.branch-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.branch-features li {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 8px 0 8px 20px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.branch-features li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #3bc1ff;
+  font-weight: bold;
+}
+
+.branch-contact {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+  padding-top: 15px;
+  border-top: 1px solid rgba(59, 193, 255, 0.1);
+}
+
+.contact-label {
+  font-weight: 600;
+  color: #3bc1ff;
+}
+
+/* Glassmorphism 스타일 공통 */
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(59, 193, 255, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+/* 애니메이션 */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 모바일 반응형 */
+@media screen and (max-width: 768px) {
+  .recruitment-section {
+    padding: 100px 20px 60px;
+  }
+
+  .recruitment-title {
+    font-size: 48px;
+  }
+
+  .recruitment-subtitle {
+    font-size: 16px;
+  }
+
+  .recruitment-header {
+    margin-bottom: 60px;
+  }
+
+  .recruitment-intro-section {
+    padding: 30px 20px;
+    margin-bottom: 60px;
+  }
+
+  .intro-content h2 {
+    font-size: 24px;
+  }
+
+  .intro-content p {
+    font-size: 14px;
+  }
+
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .section-subtitle {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .recruitment-branches-section {
+    margin-bottom: 60px;
+  }
+
+  .branch-card {
+    padding: 25px;
+  }
+
+  .branch-header h3 {
+    font-size: 20px;
+  }
+
+  .branch-address {
+    font-size: 12px;
+  }
+
+  .branch-description {
+    font-size: 13px;
+  }
+
+  .branches-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

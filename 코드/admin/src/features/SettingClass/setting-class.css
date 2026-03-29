@@ -1,0 +1,87 @@
+.setting-class-section {
+  position: relative;
+  width: calc(100% - 390px);
+  display: flex;
+  flex-direction: column;
+}
+.setting-class-top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.setting-class-title {
+  font-size: 18px;
+}
+.add-class-button {
+  background-color:#4caf50;
+  color: white;
+  font-size: 14px;
+}
+.add-class-button:hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+.setting-class-bottom {
+  border-top: 1px solid rgb(236, 236, 236);
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.class-bottom-header {
+  display: flex;
+  background-color: #f8f8f8;
+  font-size: 14px;
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+.class-header {
+  width: 100%;
+  height: 36px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-class {
+  width: 100%;
+  height: 36px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+.small {
+  width: 14%;
+}
+.xsmall {
+  width: 6%;
+  justify-content: center;
+}
+.faq-info .ql-toolbar.ql-snow + .ql-container.ql-snow {
+  height: 300px;
+}
+.class-bottom-contents {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.bottom-class-box {
+  display: flex;
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+.bottom-class-button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-class-button .MuiSvgIcon-root {
+  width: 16px;
+  height: 16px;
+}
+.setting-class-pagi {
+  width: 100%;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}

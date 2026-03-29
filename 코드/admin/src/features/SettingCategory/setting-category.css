@@ -1,0 +1,90 @@
+.setting-category-section{
+    position: relative;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.setting-category-top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.setting-category-title{
+    font-size: 18px;
+}
+
+.add-category-button{
+    background-color: #4caf50;
+    color: white;
+    font-size: 14px;
+}
+.add-category-button:hover {
+    color: rgba(0, 0, 0, 0.87);
+}
+.setting-category-bottom{
+    border-top: 1px solid rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.category-bottom-header{
+    display: flex;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    font-size: 14px;
+    padding: 0 16px;
+}
+
+.category-header{
+    width: 100%;
+    height: 36px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.bottom-category{
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.small{
+    width: 15%;
+    justify-content: center;
+}
+
+.category-bottom-contents{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bottom-category-box{
+    display: flex;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    padding-left:16px;
+
+}
+.bottom-category-box.active {
+    border: 2px solid #9933ff;
+}
+.bottom-category-button{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom-category-button .MuiSvgIcon-root {
+    width: 16px;
+    height: 16px;
+}

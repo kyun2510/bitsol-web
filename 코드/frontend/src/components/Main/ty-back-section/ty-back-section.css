@@ -1,0 +1,18 @@
+.ty-back-section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.ty-back-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #111; */
+    z-index: 1;
+    opacity: 0.2;
+    background-image: url(/images/ty-back-section/line3.png);
+}
