@@ -1,7 +1,7 @@
 import {useEffect} from 'react'
 import "./hoo-sticky-slide-section.css";
 import gsap from 'gsap';
-import ScrollTrigger from 'gsap/scrollTrigger';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
 const unitData = [
   {
